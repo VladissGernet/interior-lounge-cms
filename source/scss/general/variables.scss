@@ -1,30 +1,14 @@
 // Viewports
-
-$tablet-width: 768px;
-$desktop-width: 1150px;
-$mobile-width: 767px;
+$desktop-width: 1440px;
 
 // Fonts
-
-$general-font: "Open Sans", "Arial", sans-serif;
+$general-font: "Montserrat", "Arial", sans-serif;
 
 // Colors
-
 $white: #ffffff;
 $black: #000000;
-$aubergine: #231f20;
-$charcoal: #444444;
-$downy: #63d1bb;
-$downy2: #62d1ba;
-$puerto-rico: #56c3b2;
-$puerto-rico2: #46c1ae;
-$dark-cyan: #149080;
-$whisper: #e6e6e6;
-$snow: #f9f9f9;
-$gallery: #ececec;
-$white-smoke: #f1f1f1;
-$whisper2: #e5e5e5;
-$error: #ff3333;
+$gold: #9f7303;
+$buff: #f5d581;
 
 // General
 
@@ -34,7 +18,7 @@ html {
 }
 
 body {
-  min-width: 320px;
+  min-width: $desktop-width;
   font-family: $general-font;
   //Sticky footer
   display: flex;
