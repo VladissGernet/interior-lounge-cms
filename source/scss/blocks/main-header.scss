@@ -9,13 +9,16 @@
   flex-direction: row;
 }
 
+.main-header a {
+  text-decoration: none;
+}
+
 .main-header__logo {
   display: grid;
   grid-template-columns: 42px 1fr;
   align-items: start;
   gap: 0 18px;
   flex-shrink: 0;
-  text-decoration: none;
 }
 
 .main-header__image {
