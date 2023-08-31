@@ -32,4 +32,11 @@
 .popover__link {
   color: $black;
   font-size: 18px;
+  transition: all 0.2s;
+  display: block;
+  padding: 2px;
+}
+
+.popover__link:hover {
+  color: $gold;
 }
