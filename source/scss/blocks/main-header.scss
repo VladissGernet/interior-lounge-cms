@@ -7,6 +7,7 @@
 .main-header .container {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
 }
 
 .main-header a {
@@ -16,7 +17,7 @@
 .main-header__logo {
   display: grid;
   grid-template-columns: 42px 1fr;
-  align-items: start;
+  align-content: start;
   gap: 0 18px;
   flex-shrink: 0;
 }
@@ -35,7 +36,7 @@
   font-weight: 400;
   line-height: 27px;
   letter-spacing: 1.8px;
-  padding-top: 6px;
+  padding-top: 5px;
 }
 
 .main-header__company-slogan {
@@ -52,6 +53,7 @@
   align-items: center;
   max-width: 50%;
   gap: 40px;
+  padding-top: 6px;
 }
 
 .main-header__link {
@@ -62,5 +64,5 @@
 }
 
 .main-header__link--projects {
-  padding-right: 4px;
+  padding-right: 5px;
 }
