@@ -46,7 +46,21 @@
   line-height: 13px;
 }
 
-.main-header__company-projects {
+.main-header__navigation {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  max-width: 50%;
+  gap: 40px;
+}
+
+.main-header__link {
   color: $black;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+}
+
+.main-header__link--projects {
   padding-right: 4px;
 }

@@ -1,0 +1,15 @@
+.feedback-button {
+  padding: 6px 22px;
+  outline: 2px solid $gold;
+  border-radius: 8px;
+  background-color: transparent;
+  transition: all 0.2s;
+}
+
+.feedback-button:hover {
+  background-color: $lotion;
+}
+
+.feedback-button:active {
+  background-color: $pearl;
+}
