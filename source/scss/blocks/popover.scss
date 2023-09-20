@@ -7,19 +7,20 @@
 
 .popover__content {
   margin: 0;
-  top: 40px;
+  top: 38px;
   opacity: 0;
   visibility: hidden;
-  width: 200px;
   position: absolute;
-  padding: 24px 16px;
+  padding: 18px 14px;
   background-color: $white;
   box-shadow: 0 4px 8px 0 rgba(97, 97, 97, 0.18), 0 2px 4px 0 rgba(97, 97, 97, 0.18);
   transition: all 0.4s cubic-bezier(0.75, -0.02, 0.2, 0.97);
   list-style-type: none;
   display: flex;
   flex-direction: column;
-  gap: 23px;
+  gap: 20px;
+  min-height: 128px;
+  min-width: 170px;
 }
 
 .popover:hover .popover__content {
