@@ -17,6 +17,9 @@
   box-shadow: 0 4px 8px 0 rgba(97, 97, 97, 0.18), 0 2px 4px 0 rgba(97, 97, 97, 0.18);
   transition: all 0.4s cubic-bezier(0.75, -0.02, 0.2, 0.97);
   list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
 }
 
 .popover:hover .popover__content {
@@ -24,12 +27,6 @@
   visibility: visible;
   transform: translate(0, -20px);
   transition: all 0.4s cubic-bezier(0.75, -0.02, 0.2, 0.97);
-}
-
-.popover__content {
-  display: flex;
-  flex-direction: column;
-  gap: 23px;
 }
 
 .popover__link {
