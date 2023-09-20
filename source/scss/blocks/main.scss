@@ -52,4 +52,19 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
+  margin-bottom: 30px;
+}
+
+.main h3 {
+  margin: 0 0 34px;
+  color: $gold;
+  font-size: 32px;
+  font-weight: 500;
+  word-spacing: 3px;
+}
+
+.main__about {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 34px;
 }
