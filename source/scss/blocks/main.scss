@@ -23,7 +23,7 @@
 }
 
 .main__cms p {
-  margin: 0 0 28px;
+  margin: 0 0 26px;
   font-size: 18px;
   font-weight: 400;
   line-height: 150%;
@@ -35,7 +35,7 @@
 
 .main__cms ul {
   margin: 0 0 56px;
-  padding: 4px 0 0 22px;
+  padding: 4px 0 0 20px;
 }
 
 .main__cms li {
@@ -52,7 +52,7 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 34px;
 }
 
 .main__cms h3 {
@@ -78,7 +78,7 @@ blockquote {
   color: $gold;
   max-width: 732px;
   margin: 0 auto;
-  padding: 98px;
+  padding: 100px;
   position: relative;
 }
 
@@ -94,7 +94,7 @@ blockquote::after {
 }
 
 blockquote::before {
-  top: 56px;
+  top: 58px;
 }
 
 blockquote::after {
