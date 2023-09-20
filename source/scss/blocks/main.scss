@@ -3,14 +3,14 @@
   background-color: $floral-white;
 }
 
-.main h1 {
+.main__cms h1 {
   margin: 0 0 32px;
   font-size: 48px;
   font-weight: 500;
   word-spacing: 6px;
 }
 
-.main h2 {
+.main__cms h2 {
   margin: 0 0 56px;
   color: $gold;
   font-size: 40px;
@@ -18,11 +18,11 @@
   word-spacing: 2px;
 }
 
-.main img {
+.main__cms img {
   margin: 0 0 56px;
 }
 
-.main p {
+.main__cms p {
   margin: 0 0 28px;
   font-size: 18px;
   font-weight: 400;
@@ -33,12 +33,12 @@
   color: $gold;
 }
 
-.main ul {
+.main__cms ul {
   margin: 0 0 56px;
   padding: 4px 0 0 22px;
 }
 
-.main li {
+.main__cms li {
   list-style-position: outside;
   list-style-image: url("../img/main/point-li.svg");
   font-size: 18px;
@@ -55,7 +55,7 @@
   margin-bottom: 30px;
 }
 
-.main h3 {
+.main__cms h3 {
   margin: 0 0 34px;
   color: $gold;
   font-size: 32px;
