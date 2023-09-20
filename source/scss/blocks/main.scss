@@ -68,3 +68,35 @@
   grid-template-columns: 1fr 1fr;
   gap: 34px;
 }
+
+blockquote {
+  text-align: center;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 150%;
+  color: $gold;
+  max-width: 732px;
+  margin: 0 auto;
+  padding: 98px;
+  position: relative;
+}
+
+blockquote::before,
+blockquote::after {
+  content: '';
+  position: absolute;
+  width: 920px;
+  height: 1px;
+  background-color: $buff;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+blockquote::before {
+  top: 56px;
+}
+
+blockquote::after {
+  bottom: 60px;
+}
