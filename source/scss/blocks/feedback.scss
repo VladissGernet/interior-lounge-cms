@@ -60,6 +60,16 @@
   padding: 18px;
   width: 285px;
   height: 64px;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.feedback__button:hover {
+  background-color: $dark-goldenrod;
+}
+
+.feedback__button:active {
+  background-color: $dark-olive;
 }
 
 .feedback__notification {
