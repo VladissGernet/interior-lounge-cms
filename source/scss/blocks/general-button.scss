@@ -1,4 +1,4 @@
-.feedback-button {
+.general-button {
   padding: 6px 22px;
   outline: 2px solid $gold;
   border-radius: 8px;
@@ -7,10 +7,10 @@
   text-align: center;
 }
 
-.feedback-button:hover {
+.general-button:hover {
   background-color: $lotion;
 }
 
-.feedback-button:active {
+.general-button:active {
   background-color: $pearl;
 }
