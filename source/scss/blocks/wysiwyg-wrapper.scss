@@ -79,8 +79,8 @@
   position: relative;
 }
 
-blockquote::before,
-blockquote::after {
+.wysiwyg-wrapper blockquote::before,
+.wysiwyg-wrapper blockquote::after {
   content: '';
   position: absolute;
   width: 920px;
@@ -90,10 +90,10 @@ blockquote::after {
   transform: translate(-50%);
 }
 
-blockquote::before {
+.wysiwyg-wrapper blockquote::before {
   top: 58px;
 }
 
-blockquote::after {
+.wysiwyg-wrapper blockquote::after {
   bottom: 60px;
 }
