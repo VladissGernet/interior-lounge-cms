@@ -103,6 +103,8 @@
   grid-row: span 2;
   display: block;
   background-color: $gold;
+  align-self: start;
+  border-radius: 50%;
 }
 
 .feedback__reviewer-avatar {
