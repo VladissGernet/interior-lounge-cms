@@ -1,4 +1,4 @@
-.order-form .wpcf7-text {
+.order-form .wpcf7-textarea {
   resize: none;
   font-family: $general-font;
   font-size: 18px;
@@ -13,7 +13,7 @@
   margin-bottom: 24px;
 }
 
-.order-form__user-name {
+.order-form .wpcf7-text {
   font-family: $general-font;
   font-size: 18px;
   line-height: 150%;
@@ -27,7 +27,7 @@
   box-sizing: border-box;
 }
 
-.order-form__button-wrapper {
+.order-form__submit-area {
   display: flex;
   align-items: start;
   gap: 16px;
