@@ -142,28 +142,35 @@
   </div>
   <div class="feedback">
     <div class="container">
-      <h3 class="feedback__title" id="leave-feedback">
-        Оставить отзыв
-      </h3>
-      <form class="feedback__form" action="https://echo.htmlacademy.ru/" method="post">
-        <label class="visually-hidden" for="user-feedback">
-          Поле ввода вашего отзыва о проекте.
-        </label>
-        <textarea class="feedback__user-feedback" name="user-feedback" id="user-feedback"
-                  placeholder="Расскажите, что вы думаете о проекте" required></textarea>
-        <label class="visually-hidden" for="user-name">
-          Поле ввода вашего имени.
-        </label>
-        <input class="feedback__user-name" type="text" name="user-name" id="user-name" placeholder="Ваше имя" required>
-        <div class="feedback__button-wrapper">
-          <button class="feedback__button" type="submit">
-            Отправить
-          </button>
-          <p class="feedback__notification">
-            Отзыв будет добавлен после проверки модератором
-          </p>
+      <div class="wysiwyg-wrapper">
+        <h3 class="feedback__title" id="leave-feedback">
+          Оставить отзыв
+        </h3>
+        <div class="order-form">
+          <div class="wpcf7">
+            <form class="wpcf7-form" action="https://echo.htmlacademy.ru/" method="post">
+              <label class="visually-hidden" for="user-feedback">
+                Поле ввода вашего отзыва о проекте.
+              </label>
+              <textarea class="wpcf7-text" name="user-feedback" id="user-feedback"
+                        placeholder="Расскажите, что вы думаете о проекте" required></textarea>
+              <label class="visually-hidden" for="user-name">
+                Поле ввода вашего имени.
+              </label>
+              <input class="order-form__user-name" type="text" name="user-name" id="user-name" placeholder="Ваше имя"
+                     required>
+              <div class="order-form__button-wrapper">
+                <button class="wpcf7-submit" type="submit">
+                  Отправить
+                </button>
+                <p class="order-form__notification">
+                  Отзыв будет добавлен после проверки модератором
+                </p>
+              </div>
+            </form>
+          </div>
         </div>
-      </form>
+      </div>
       <section class="feedback__reviews">
         <h2 class="visually-hidden">
           Блок отзывов.
