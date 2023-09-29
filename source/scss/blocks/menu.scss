@@ -35,6 +35,12 @@
   top: 32px;
 }
 
+.menu-primary-container .menu-item-has-children:focus-within .sub-menu {
+  opacity: 1;
+  visibility: visible;
+  top: 32px;
+}
+
 .menu-primary-container .sub-menu {
   margin: 0;
   padding: 22px 16px;
