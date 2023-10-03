@@ -15,6 +15,7 @@
   font-weight: 400;
   line-height: 27px;
   padding: 0;
+  transition: all 0.2s;
 }
 
 .menu-primary-container .menu-item-has-children {
@@ -71,6 +72,10 @@
 
 .menu-primary-container a:hover {
   color: #d8874d;
+}
+
+.menu-primary-container a:active {
+  opacity: 0.6;
 }
 
 .menu-primary-container .menu-button a {
